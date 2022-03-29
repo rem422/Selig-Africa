@@ -224,6 +224,9 @@ section .title::before {
     position: relative;
     z-index: 1;
     animation: animate 16s ease-in-out infinite;
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
 }
 
 .home::after {
